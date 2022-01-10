@@ -12,8 +12,32 @@ app.get("/galery", (request, response) => {
   });
 
 
-app.get("/works", (request, response) => {
-    response.render("works.hbs");
+app.get("/family", (request, response) => {
+  const family = [
+    {name:"Mickey Mouse",
+     birth:"15/05/1928",
+     img:"/img/Mickey mouse.png"
+    },
+    {name:"Minnie Mouse",
+    birth:"15/05/1928",
+    img:"/img/Minnie.png"
+   },
+   {name:"Pluto",
+   birth:"1930",
+   img:"/img/Pluto.png"
+  },
+  {name:"Dingo",
+  birth:"1932",
+  img:"/img/Dingo.png"
+ },
+ {name:"Donald Duck",
+ birth:"1934",
+ img:"/img/Ronald Duck.png"
+},
+  ];
+    response.render("works.hbs",{
+      family,
+    });
   });
 
 

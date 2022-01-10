@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.homeh1{
+    text-align: center;
+    background-color: rgb(52, 54, 54);
+    color: azure;
+}
+.homeImg {
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+}
+a{
+    text-decoration: none;
+    color: rgb(117, 38, 54);
+    font-size: 30px;
+    border: 5px solid rgb(29, 29, 44);
+    background-color: rgb(46, 111, 122);
+    border-radius: 20px;
+}
+a:hover{
+    cursor: pointer;
+    background-color: navy;
+}
+.about{
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    top: 187px;
+    left: 0px;
+    text-align: center;
+    /* padding: 200px 500px; */
+    border:1px solid blue;
+    /* background-image: url("../img/mickey1.png"); */
+    background-color: rgb(71, 4, 4);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 40px;
+}
+.fontback{
+    background-image: url("../img/mickback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    overflow: hidden;
+    
+}
+.mick{
+    position: absolute;
+    top: 500px;
+    left: 670px;
+}
+.fam1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: url("../img/disney.jpg");
+    color: rgb(27, 60, 61);
+    font-size: 30px;
+    text-align: center;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fam{
+   background-color: rgb(13, 110, 110);
+   height: 210px;
+   border-radius: 20px;
+}
+.fam:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.com{
+    text-align: center;
+    font-size: 100px;
+    font-family:fantasy;
+    background-color: firebrick;
+}
